@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casino</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>BetCoder</h1>
+        <h2>La Mejor Casa De Apuestas</h2>
+        <nav class="navbar">
+            <a href="casino.html">Casino</a>
+            <a href="index.html">Deportes</a>
+            <a href="envivo.html">En Vivo</a>
+        </nav>
+    </header>
+
+    <section class="ruleta">
+        <h3 class="ruletaTitulo">Ruleta</h3>
+        <img class="ruletaImg" src="assets/plantilla-rueda-fortuna-simbolo-juego-dibujos-animados-color_53562-18764.avif" alt="">
+        <button id="btnJugar">Jugar</button>
+    </section>
+
+    <aside id="juegoRuleta"><h3>Ruleta</h3>
+        <P>Elige un numero entre 0-9</P>
+        <input type="number" id="apuestaRuleta" min="1" max="9">
+        <button id="btnRuleta">Apostar</button>
+    </aside>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="casino.js"></script>
+</body>
+</html>

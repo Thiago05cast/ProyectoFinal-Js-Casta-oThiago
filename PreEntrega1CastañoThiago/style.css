@@ -1,0 +1,225 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    background-color: black;
+    color: chartreuse;
+    padding: 10px;
+}
+
+h2{
+    background-color: chartreuse;
+    padding: 10px;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+a{
+    background-color: darkgray;
+    display: inline;
+    color: black;
+    padding: 10px 140px;
+    text-decoration: none;
+    margin: 0% 10px ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: white; 
+    position: sticky;
+    top: 0;
+    border-width: 7px;
+}
+
+.navbar a:hover{
+    color: white;
+    background-color: black;
+}
+
+h3{
+    background-color: black;
+    color: chartreuse;
+    font-size: 30px;
+    padding: 10px;
+    width: 100%;
+}
+
+img{
+    display: inline;
+    width: 30%;
+    margin: 10px 120px;
+    align-content: center;
+    align-self: center;
+    border-style: solid;
+    border-color: white;
+}
+
+form{
+    background-color: chartreuse;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 11px;
+}
+
+body{
+    background-color: black;
+    
+    
+}
+
+aside{
+    flex-basis: 24%;
+    background-color: chartreuse;
+    display: flex;
+    flex-direction: row;
+}
+
+main{
+    flex-basis: 74%;
+}
+
+i{
+    width: 110px;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+label{
+    margin-right:  50px;
+    margin-bottom: 10px;
+    margin-left: 300px;
+    
+}
+
+h4{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    
+}
+
+h6{
+    font-size: 25px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+h5{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-left: 10px;
+}
+
+.btnEliminar{
+    color: white;
+    background-color: black;
+}
+
+.btnEliminar:hover{
+    color: black;
+    background-color: white;
+}
+
+#btnSimular{
+    margin: 30px 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: chartreuse;
+    color: black;
+    border-radius: 10px;
+    width: 200px;
+    font-size: 25px;
+}
+
+#monto{
+    margin: 20px 40% 0px
+}
+
+#text{
+    margin: 0px 41%;
+    color: white;
+}
+
+p{
+    margin-left:119px;
+}
+
+.ruleta{
+    border-style: inset;
+    margin-left: 43%;
+    margin-right: 703px;
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns:repeat(1, 200px) ;
+    grid-template-rows: repeat(3, 100px);
+    grid-template-areas: 
+    "ruletaTitulo"
+    "ruletaImg"
+    "btnJugar"
+;
+    
+}
+
+.ruletaTitulo{
+    grid-template-areas: ruletaTitulo;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.ruletaImg{
+    grid-template-areas: ruletaTitulo;
+    width: 100%;
+    margin: 0%;
+    margin-bottom: 10px;
+}
+
+
+#btnJugar{
+    grid-template-areas: btnjugar;
+    width: 100%;
+    margin-top: 40px;
+    background-color: chartreuse;
+    font-size: large;
+}
+
+p{
+    font-size: 20px;
+    width: 20%;
+}
+
+#juegoRuleta{
+    display: flex;
+    margin: 0px 500px;
+    
+}
+
+#apuestaRuleta{
+    width: 200px;
+    margin-left: 120px;
+    font-size: large;
+}
+
+#mainVivo{
+    background-color: chartreuse;
+    margin: 0px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
